@@ -1,7 +1,9 @@
+---
 title: Handlebars Byte Order Mark!
 author: Liam McLennan
 date: 2013-02-18 15:00
 template: article.jade
+---
 
 Byte order mark (BOM) is a unicode character that signals the byte order of a UTF text file. If displayed in a text editor it most often appears as `ï»¿`. 
 

@@ -1,7 +1,7 @@
 ---
 title: Handlebars Byte Order Mark!
 author: Liam McLennan
-date: 2013-02-18 15:00
+date: 2012-08-01 15:00
 template: article.jade
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Backbone server
+title: Hosted backbone server
 author: Liam McLennan
 date: 2012-02-09 20:32
 template: article.jade

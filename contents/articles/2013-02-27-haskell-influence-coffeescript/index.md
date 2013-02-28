@@ -86,7 +86,7 @@ add 2 3
 CoffeeScript:
 
 ```
-add 2 3
+add 2, 3
 ```
 
 Ranges

@@ -11,7 +11,7 @@ Of all the components of a Backbone.js application Models are the easiest to tes
 
 1. Initialize a model with a specific state
 
-2. Test that the model’s behavior matches expectations
+2. Test that the model’s behavior matches expectations
 
 3. Goto 1.
 

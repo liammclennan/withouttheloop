@@ -19,6 +19,4 @@ Create a collection of indexes and map each one to its inverse location in the s
 
 The CoffeeScript version (gistfile3.coffee) has nicer syntax. It also demonstrates the affect of reversing the sequence of indexes.
 
-<p>&nbsp;</p>
-
 <script src="https://gist.github.com/liammclennan/4994673.js"></script>

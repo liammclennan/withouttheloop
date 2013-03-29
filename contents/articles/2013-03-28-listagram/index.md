@@ -5,6 +5,8 @@ date: 2013-03-28 20:32
 template: article.jade
 ---
 
+> UPDATE: I have made the [listagram source](https://bitbucket.org/liammclennan/list-a-gram) publically available for anyone who is interested.
+
 If you have a billion dollar company, or very specific needs, then it may make sense to develop native mobile applications for multiple platforms. For everyone else it is hard to argue against the practicality of portable html-based applications. Such has been my uneducated opinion for some time. To prove that multi-platform web apps are a viable option I decided to build one.
 
 The Story So Far

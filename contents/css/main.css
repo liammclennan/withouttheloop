@@ -238,11 +238,11 @@ pre code {
   margin-top: 10px;
 }
 
-@media screen and (min-width: 776px) {
+@media screen and (min-width: 1276px) {
   body > header .inner,
   body > footer .inner,
   #content {
-    width: 676px;
+    width: 1176px;
     margin-left: auto;
     margin-right: auto;
   }

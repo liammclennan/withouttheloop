@@ -18,9 +18,6 @@ template: article.jade
 }
 </style>
 
-Functionally Solving a Cellular Automaton
-====================================
-
 I thought it might be interesting to solve the [Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life) cellular automaton in a functional manner. Game of life is an interesting problem for experimentation because it is simple and well understood. 
 
 Where to Start?

@@ -1,10 +1,9 @@
 ---
-title: Functional Game of Life
+title: Functional Game of Life part 1 (C#)
 author: Liam McLennan
 date: 2013-05-06 20:32
 template: article.jade
 ---
-
 
 <style>
 .cell {
@@ -18,12 +17,15 @@ template: article.jade
 }
 </style>
 
-I thought it might be interesting to solve the [Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life) cellular automaton in a functional manner. Game of life is an interesting problem for experimentation because it is simple and well understood. 
+<img src="Gospers_glider_gun.gif" align="left" style="margin:20px;"/> I thought it might be interesting to solve the [Conway's Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life) cellular automaton in a functional manner. Game of life is an interesting problem for experimentation because it is simple and well understood. 
 
 Where to Start?
 ----------------
 
 I'll start by defining a way to render the world. I want to start here because it is useful to have a nice way to visualise the state of the system, also it conveniently forces me to define my data model. I will model the system as a collection of living cells, each with X and Y coordinates (zero based). The living cells define the boundaries of the system. Dead cells are implicitly the cells within the system boundary that are not living. A system defined as:
+
+<div style="clear: both;"></div>
+
 
     new Cell(1,0), new Cell(0,1), new Cell(2,1), new Cell(7,16)
 

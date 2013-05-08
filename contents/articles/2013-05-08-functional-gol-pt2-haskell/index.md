@@ -17,6 +17,8 @@ template: article.jade
 }
 </style>
 
+> DISCLAIMER: I don't know Haskell at all. I know the code in this article is not idiomatic and I look forward to receiving constructive criticism.
+
 In [part 1 of this series](../2013-05-06-functional-game-of-life/) I began to implement the game of life cellular automaton in C# using the functional programming style (at least as I know it). Part 1 defined the data model and implemented a function to render the state of the system to HTML. 
 
 For this part 2 of the series I port my C# solution to Haskell. 

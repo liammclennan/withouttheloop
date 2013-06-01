@@ -172,24 +172,31 @@ split s = [takeWhile isNotSeparator s :: String] ++ (split $ dropWhile isNotSepa
         isNotSeparator c = c /= ',' && c /= '\n'
 ```
 
-The final requirement is to support different delimeters. Here is my admittedly ugly solution:
+The final requirement is to support different delimeters. Here it is, with some refactoring:
 
 ```
 module StringCalc (sumString) where
 
+import Data.List
+import Data.List.Split
+
+hasExplicitDelimeter :: String -> Bool
+hasExplicitDelimeter ('/':'/':s:'\n':ss) = True
+hasExplicitDelimeter _                   = False
+
+trimmed :: String -> String
+trimmed input | hasExplicitDelimeter input = drop 4 input
+              | otherwise                  = input
+
 sumString :: String -> Int
 sumString "" = 0
-sumString s = sum $ map rInt (split ',' s)
+sumString s = sum . map rInt $ splitOn [guessDelimeter s] (trimmed s)
+
   where rInt :: String -> Int
         rInt s = read s
 
-split :: Char -> String -> [String]
-split s "" = []
-split _ ('\n':ss) = split '\n' ss
-split _ ('/':'/':s:'\n':ss) = split s ss
-split s (f:ss) 
-    | f == s = split s ss 
-    | otherwise = [takeWhile isNotSeparator (f:ss) :: String] ++ (split s (dropWhile isNotSeparator (f:ss)))
-          where isNotSeparator :: Char -> Bool
-                isNotSeparator c = c /= ',' && c /= '\n' && c /= s
+        guessDelimeter :: String -> Char
+        guessDelimeter input  | hasExplicitDelimeter input     = input !! 2
+                              | "\n" `isInfixOf` trimmed input = '\n'
+                              | otherwise                      = ','
 ```

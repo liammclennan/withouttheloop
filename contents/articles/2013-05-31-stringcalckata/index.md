@@ -200,3 +200,5 @@ sumString s = sum . map rInt $ splitOn [guessDelimeter s] (trimmed s)
                               | "\n" `isInfixOf` trimmed input = '\n'
                               | otherwise                      = ','
 ```
+
+> UPDATE: [Michael Feathers performs the string calculator kata](http://vimeo.com/18423904) and arrives at a similar solution, except that his is point free

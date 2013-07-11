@@ -1,9 +1,9 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "The Wintersmith's blog",
-    "owner": "Someone",
-    "description": "Ramblings of an immor(t)al demigod"
+    "name": "Without the loop",
+    "owner": "Liam McLennan",
+    "description": "it is nothing"
   },
   "plugins": [
     "./plugins/paginator.coffee"

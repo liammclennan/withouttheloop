@@ -7,6 +7,8 @@ template: article.jade
 
 This weekend at [campjs](http://campjs.com/) one of my projects has been porting my [Haskell Game of Life](http://withouttheloop.com/articles/2013-05-12-functional-game-of-life-3-haskell/) to CoffeeScript, with type annotations courtesy of [Ristretto](http://code.google.com/p/ristretto-js/). 
 
+[https://github.com/liammclennan/coffeescript-game-of-life](https://github.com/liammclennan/coffeescript-game-of-life)
+
 Ristretto
 -----
 

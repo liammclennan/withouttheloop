@@ -92,6 +92,8 @@ Application Feature API
 
 Instead of the above controller I prefer to make the features an application provides into a first class API. I model each feature as a class, so the logic in `Borrow` action moves into a feature class called `BorrowABook`.
 
+The genesis of the ideas show here come from Uncle Bob's presentation ['Architecture the Lost Years'](http://www.youtube.com/watch?v=WpkDN78P884).
+
     public class BorrowABook
     {
         public enum BorrowABookOutcomes

@@ -153,3 +153,10 @@ Given a feature such as `BorrowABook` the controller action simplifies to the fo
     }
 
 Note that the application logic has all been removed. The controller action is reduced to the minimum required to implement the UI.
+
+Update
+-----
+
+Thanks to David Tchepak for providing this F# version of the above example. Note that it is untested and meant simply as an example of what an F# version might look like. 
+
+<script src="https://gist.github.com/dtchepak/7168143.js"></script>

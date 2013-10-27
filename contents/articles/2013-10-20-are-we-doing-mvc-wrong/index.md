@@ -157,6 +157,6 @@ Note that the application logic has all been removed. The controller action is r
 Update
 -----
 
-Thanks to David Tchepak for providing this F# version of the above example. Note that it is untested and meant simply as an example of what an F# version might look like. 
+Thanks to David Tchepak for providing [this F# version](https://gist.github.com/dtchepak/7168143) of the above example. Note that it is untested and meant simply as an example of what an F# version might look like.
 
 <script src="https://gist.github.com/dtchepak/7168143.js"></script>

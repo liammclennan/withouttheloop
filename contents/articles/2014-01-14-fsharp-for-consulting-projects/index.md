@@ -58,7 +58,7 @@ Implementing a service only requires a `ServiceBase` implementation and a servic
 F# Tooling Support
 ------------------
 
-F# tooling support is minimal, compared to c# and VB.NET. As mentioned previously there is a shortage of built-in project templates, but this is easily rectified by the online, community contributed templates. Many .net technologies, such as asp.net and WPF, do not explicitly support F#, meaning that the F# programmer has some extra work to do. Also, third party productivity tools such as ReSharper typically do not support ReSharper. When our productivity tools become a contributing factor for foundational technology decisions it is time to question, "have we lost control?".
+F# tooling support is minimal, compared to c# and VB.NET. As mentioned previously there is a shortage of built-in project templates, but this is easily rectified by the online, community contributed templates. Many .net technologies, such as asp.net and WPF, do not explicitly support F#, meaning that the F# programmer has some extra work to do. Also, third party productivity tools, such as ReSharper, typically do not support F#. When our productivity tools become a contributing factor for foundational technology decisions it is time to question, "have we lost control?".
 
 F# Data Access
 -------------

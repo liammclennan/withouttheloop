@@ -45,3 +45,4 @@ As much as my state machine library was a successful solution to a problem I can
 
 This is a much better solution because it is statically checked by the compiler. There is no way that a consumer of the module can perform an invalid state transition.
 
+The type system models the relationship between Contract and each of the possible states (a Contract is a draft, or approved or historical) as well as the data attached to each state (a draft doesn't have a timestamp).

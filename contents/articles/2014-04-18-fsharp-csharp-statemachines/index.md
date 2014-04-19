@@ -12,7 +12,7 @@ A couple of months ago I wrote a [simple library for building state machines in 
 
 The first system that used the library contained functionality for managing the lifecycle of contracts. The contracts begin in a draft state, they may then move to an approved state, and finally they may enter the historical state. They cannot go from draft to historical, from approved to draft, from historical to draft etc. Using the state machine added a valuable invariant guarantee to the code. 
 
-As much as my state machine library was a successful solution to a problem I can't help but realise that this problem simply doesn't exist in F#. F#'s type system is sufficiently advanced so that it can represent state machines as part of the type. Not only does this meet the stated goal of my C# state machine library but it does so at compile time. It is impossible to compile an F# program that could cause a value to make an invalid state transition. To use the previous contracts example, the F# type would look like this:
+As much as my state machine library was a successful solution to a problem I can't help but realise that this problem simply doesn't exist in F#. F#'s type system is sufficiently advanced so that it can represent state machines as part of the type. Not only does this meet the stated goal of my C# state machine library but it does so at compile time. To use the previous contracts example, the F# type would look like this:
 
 
     type Particulars = { buyer: string; seller: string }
@@ -42,6 +42,3 @@ As much as my state machine library was a successful solution to a problem I can
 
     // output = Historical ({buyer = "Acme"; seller = "Initech";}, 
     //                          18/04/2014 1:27:20 PM)
-
-This is a much better solution because it is statically checked by the compiler. There is no way that a consumer of the module can perform an invalid state transition.
-

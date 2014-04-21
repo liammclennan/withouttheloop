@@ -12,7 +12,7 @@ A couple of months ago I wrote a [simple library for building state machines in 
 
 The first system that used the library contained functionality for managing the lifecycle of contracts. The contracts begin in a draft state, they may then move to an approved state, and finally they may enter the historical state. They cannot go from draft to historical, from approved to draft, from historical to draft etc. Using the state machine added a valuable invariant guarantee to the code. 
 
-As much as my state machine library was a successful solution to a problem I can't help but realise that this problem simply doesn't exist in F#. F#'s type system is sufficiently advanced so that it can represent state machines as part of the type. Not only does this meet the stated goal of my C# state machine library but it does so at compile time. To use the previous contracts example, the F# type would look like this:
+As much as my state machine library was a successful solution to a problem I can't help but realise that this problem simply doesn't exist in F#. F#'s type system is sufficiently advanced so that it can represent state machines as part of the type. This meets the stated goal of my C# state machine library. To use the previous contracts example, the F# type would look like this:
 
 
     type Particulars = { buyer: string; seller: string }
@@ -42,3 +42,5 @@ As much as my state machine library was a successful solution to a problem I can
 
     // output = Historical ({buyer = "Acme"; seller = "Initech";}, 
     //                          18/04/2014 1:27:20 PM)
+
+The type system models the relationship between Contract and each of the possible states (a Contract is a draft, or approved or historical) as well as the data attached to each state (a draft doesn't have a timestamp).

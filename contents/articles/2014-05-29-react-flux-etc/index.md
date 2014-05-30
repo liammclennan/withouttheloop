@@ -5,7 +5,7 @@ date: 2014-05-29 20:32
 template: article.jade
 ---
 
-I've been enjoying working with [React](pluralsight.com/training/courses/TableOfContents?courseName=react-fundamentals) for a while now. I like it's emphasis on stateless, composable components. 
+I've been enjoying working with [React](http://pluralsight.com/training/courses/TableOfContents?courseName=react-fundamentals) for a while now. I like it's emphasis on stateless, composable components. 
 
 Unlike Angular, React does not give the developer much help with the design of their application. To address this the React team recently starting talking about [Flux](http://facebook.github.io/react/blog/), the architecture they use at Facebook. Flux has many pieces but the significant idea is that events no longer bubble back up the component hierarchy, instead they go out to an event aggregator that changes the application state, causing the UI to update. Much is made of the single directional data flow, state -> UI -> events -> aggregator -> change state -> UI etc. I like this design and I'll add one important rule:
 

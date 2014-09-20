@@ -1,1 +1,1 @@
-ssh liammclennan@192.81.215.120 'bash -s' < deploy
+ssh liam@withouttheloop.com 'bash -s' < deploy

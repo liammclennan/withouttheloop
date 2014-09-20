@@ -1,5 +1,5 @@
 ---
-title: Prometheus: Linking F# Records to Typescript Classes
+title: Prometheus - Linking F# Records to Typescript Classes
 author: Liam McLennan
 date: 2014-09-20 20:32
 template: article.jade

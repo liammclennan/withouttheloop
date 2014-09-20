@@ -5,7 +5,7 @@ date: 2014-09-20 20:32
 template: article.jade
 ---
 
-I would like to program in a way that is strict, unambiguous and correct as possible. I want the compiler to assist as much as possible, for new development and for refactoring. SPJ has described a compiler as a, "weak theorem prover" and I want my theorems weakly proven. But there is a problem. A lot of my work is in the browser where JavaScript is the only option, and JavaScript does not meet any of my stated requirements. Fortunately, there is a neat little project called [TypeScript](http://www.typescriptlang.org/) that adds static type checking to JavaScript. 
+I would like to program in a way that is as strict, unambiguous and correct as possible. I want the compiler to assist as much as possible, for new development and for refactoring. SPJ has described a compiler as a, "weak theorem prover" and I want my theorems weakly proven. But there is a problem. A lot of my work is in the browser where JavaScript is the only option, and JavaScript does not meet any of my stated requirements. Fortunately, there is a neat little project called [TypeScript](http://www.typescriptlang.org/) that adds static type checking to JavaScript. 
 
 For C# solutions there is a tool called [netjs](https://github.com/praeclarum/Netjs) that can compile C# code to TypeScript and thence to JavaScript. I tested it on a simple C# solution with success, however, it does not work for F# projects. 
 
@@ -40,4 +40,4 @@ Prometheus produces the following valid TypeScript file:
 	    }
 	}
 
-Now if my server and client side model definitions are fall out of sync it will be a glorious compilation error. 
+Now if my server and client side model definitions fall out of sync it will be a glorious compilation error. 

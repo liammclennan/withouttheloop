@@ -7,7 +7,7 @@ template: article.jade
 
 Previously I wrote about [Aristotle](http://withouttheloop.com/articles/2014-02-09-aristotle/), my attempt at a usable http test client in the browser. Over the last two months Aristotle has been renamed [wurl](http://wurl.azurewebsites.net), received a much improved user interface and many new features.
 
-<img src="/articles/2014-03-11-wurl/screen.png" alt="wurl user interface"/>
+<img src="wurl.png" alt="wurl user interface"/>
 
 Here is the short list of improvements:
 
@@ -18,7 +18,7 @@ Here is the short list of improvements:
 * save templates
 * request a template by url ([http://wurl.azurewebsites.net/request?url=https://api.github.com/users/neovim/repos](http://wurl.azurewebsites.net/request?url=https://api.github.com/users/neovim/repos))
 
-<img src="/articles/2014-03-11-wurl/request.png" alt="wurl user interface"/>
+<img src="request.png" alt="wurl user interface"/>
 
 What's Missing
 -------------

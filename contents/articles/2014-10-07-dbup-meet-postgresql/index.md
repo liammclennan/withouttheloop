@@ -22,3 +22,4 @@ Show me the Codez!
 
     var result = upgrader.PerformUpgrade();
 
+> NOTE: at the time of writing this update has been merged but not yet made available via Nuget.

@@ -1,5 +1,5 @@
 ---
-title: Ad-hoc Polymorphism in F#
+title: Ad-hoc Polymorphism in F# (how to survive without Type Classes)
 author: Liam McLennan
 date: 2014-10-21 20:32
 template: article.jade

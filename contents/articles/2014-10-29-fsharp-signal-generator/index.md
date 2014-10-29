@@ -5,6 +5,8 @@ date: 2014-10-29 20:32
 template: article.jade
 ---
 
+<img src="sg.jpg" alt="signal generator" align="right" style="width:400px"/>
+
 As part of a larger project I have been working on a signal generator. A signal generator is a device (in this case an F# program) that is often used to generate waves at a particular frequency that can be interpreted as sound (by applying to a speaker as a voltage). 
 
 For my project I want to generate pitches and then convert the signal to PCM audio data, wrapped in the windows WAVE file format. PCM format means that the signal is represented as a series of positive or negative values within a certain range. The number of samples per second is called the sample rate (44,100 for CD audio). The range of the values is governed by the bit depth, again I will stick with the CD audio standard 16 bit audio, giving me a range of -32768 to 32767.

@@ -5,14 +5,14 @@ date: 2014-10-29 20:32
 template: article.jade
 ---
 
-As part of a larger project I have been working on a signal generator. A signal generator is a device (in this case an F# program) that is often used to generate waves at a particular frequence that can be interpreted as sound (by applying to a speaker as a voltage). 
+As part of a larger project I have been working on a signal generator. A signal generator is a device (in this case an F# program) that is often used to generate waves at a particular frequency that can be interpreted as sound (by applying to a speaker as a voltage). 
 
 For my project I want to generate pitches and then convert the signal to PCM audio data, wrapped in the windows WAVE file format. PCM format means that the signal is represented as a series of positive or negative values within a certain range. The number of samples per second is called the sample rate (44,100 for CD audio). The range of the values is governed by the bit depth, again I will stick with the CD audio standard 16 bit audio, giving me a range of -32768 to 32767.
 
 Generating Signals
 ----------
 
-The simplest and purest representation of a particular frequence is given by a sine wave. 
+The simplest and purest representation of a particular frequency is given by a sine wave. 
 
 <img src="sine.gif" alt="A sine wave"/>
 
@@ -32,7 +32,7 @@ Interesting. What about the `sin` of 2 PI radians?
     > sin (2. * System.Math.PI);;
     val it : float = -2.449212708e-16
 
-Those accustomed to working with floating point numbers will recognise that anything x 10^-16 is floating points version of 0. So sin (n * PI) is 0. This tells us, or at least suggests, that the graph crosses the x axis every PI change in x. Now lets look at mid-points between x intercepts:
+Those accustomed to working with floating point numbers will recognise that anything x 10^-16 is floating points version of 0. So sin (n * PI) is 0. This tells us, or at least suggests, that the graph crosses the x axis every PI change in x. Now let's look at mid-points between x intercepts:
 
     > sin (1.5 * System.Math.PI);;
     val it : float = -1.0
@@ -41,7 +41,7 @@ Those accustomed to working with floating point numbers will recognise that anyt
     > sin (3.5 * System.Math.PI);;
     val it : float = -1.0
 
-Half way betwee PI and 2 x PI the y value is -1. Half way between 2 x PI and 3 x PI the y value is 1. Half way between 3 x PI and 4 x PI the y value is back to -1, so we see that the graph repeats every 2 x PI. 
+Half way between PI and 2 x PI the y value is -1. Half way between 2 x PI and 3 x PI the y value is 1. Half way between 3 x PI and 4 x PI the y value is back to -1, so we see that the graph repeats every 2 x PI. 
 
 Now we can start generating PCM data. First we need to list the samples we want to create:
 
@@ -91,7 +91,7 @@ The [WAVE file format](https://ccrma.stanford.edu/courses/422/projects/WaveForma
 Tuning
 ------
 
-So far we have a signal generator that generates audio data following a sine wave, but we have no control of the pitch (frequency) of the sound. We know that the wave repeats every 2 x PI, and we know that we have 44,100 samples per second. What we need is a way to expand and contract the wave horizontally to hit target frequencies. The graph transformation that controls horizontal strecth is achieved by multiplying the argument by a factor prior to applying the original function. ie
+So far we have a signal generator that generates audio data following a sine wave, but we have no control of the pitch (frequency) of the sound. We know that the wave repeats every 2 x PI, and we know that we have 44,100 samples per second. What we need is a way to expand and contract the wave horizontally to hit target frequencies. The graph transformation that controls horizontal stretch is achieved by multiplying the argument by a factor prior to applying the original function. ie
 
     let square x = x * x
     let squareStretched x = (2 * x) * (2 * x)
@@ -108,7 +108,7 @@ solving for the factor
 
     factor = 44100 / 2 * PI * freq
 
-Now we can update our signal generating function to be tunable using the inverse of factor
+Now we can update our signal generating function to be tuneable using the inverse of factor
 
     let frequency = 440.
     let samples = Seq.map 

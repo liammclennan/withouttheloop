@@ -165,8 +165,7 @@ and is parsed thus:
 
 That is everything required to parse a Nokia composer token, which defines a rest or a note. 
 
-Parsing Tunes
--------------
+### Parsing Tunes
 
 Parsing a tune is a simple matter of applying the `ptoken` parser repeatedly until the end of the string. Naturally, there is a combinator for that. `sepBy` takes two parsers: the first to parse items and a second to parse the separators between items. For the space separated Nokia Composer syntax we can use:
 

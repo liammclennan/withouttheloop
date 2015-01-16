@@ -7,7 +7,7 @@ template: article.jade
 
 Everytime I create a new F# project (typically using the MVC 5 F# Templates) things go great until I close Visual Studio. When I try to reopen the solution I inevitably get:
 
-> The project ____ could not be opened because opening it would cause a folder to be rendered multiple times in the solution explorer. One such problematic item is _____
+> The project ?? could not be opened because opening it would cause a folder to be rendered multiple times in the solution explorer. One such problematic item is ??
 
 It's natural to think that the indicated file is causing the problem, but if you remove it then the problem just shifts to the next file. 
 

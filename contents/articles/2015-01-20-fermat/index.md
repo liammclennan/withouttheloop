@@ -22,6 +22,8 @@ Fermat is a simple library for organising web states and generating urls. Tell i
     
     // /calendar/march/14
 
+It works with require.js, node, browserify and [smodules](https://github.com/liammclennan/smodules).
+
 Run Tests
 -------
 

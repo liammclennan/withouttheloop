@@ -7,7 +7,7 @@ template: article.jade
 
 [PostgresDoc](https://github.com/liammclennan/PostgresDoc) is now the most ironically named ORM! Also, it doesn't support objects, relations or mapping, but it does now support Sql Server - at least the recent versions.
 
-Historically, PostgresDoc has been a data access library providing serialization/deserialization, transactions, and unit of work on top of the Postgresql json data type and associated indexes. [Recently I got around to implementing the same thing on top of Sql Server's XML data type and its indexes](https://github.com/liammclennan/PostgresDoc/wiki/SQL-Server-Support).
+Historically, PostgresDoc has been a data access library providing serialization/deserialization, transactions, and a unit of work on top of the Postgresql json data type and associated indexes. [Recently I got around to implementing the same thing on top of Sql Server's XML data type and its indexes](https://github.com/liammclennan/PostgresDoc/wiki/SQL-Server-Support).
 
 Here is the Doco
 -------

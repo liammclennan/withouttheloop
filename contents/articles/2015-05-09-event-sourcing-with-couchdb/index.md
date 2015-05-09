@@ -139,7 +139,7 @@ Result
 
 There are some concerns remaining.
 
-Each event must somehow map to the entity it produces. A more complicated scheme could be used (to allow an event to affect the state of > 1 entity) but I'm still not sure if this is idea.
+Each event must somehow map to the entity it produces. A more complicated scheme could be used (to allow an event to affect the state of > 1 entity) but I'm still not sure if this is ideal.
 
 The reduce function may (or may not) have performance problems. I have not found a way to store the sorted events in the index, so they are re-sorted when the reduce function runs.
 

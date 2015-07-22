@@ -7,7 +7,7 @@ template: article.jade
 
 Suppose you have a collection of .net TPL tasks and the knowledge that some of them may fail (throw an exception) and some may take an unacceptably long period of time to resolve. In the case of the errored tasks you wish to collect information to assist diagnosis. In the case of the long running tasks you wish to ignore them and allow the program to carry on so that throughput is maintained.
 
-This is not a simple problem when using the .net TPL (Task<T>, async, await, etc), which seems to be designed with an all or nothing mentality. Consider the following motely crue of tasks:
+This is not a simple problem when using the .net TPL (Task<T>, async, await, etc), which seems to be designed with an all or nothing mentality. Consider the following motely crew of tasks:
 
     Task<int?>[] calcTasks = new [] {
         Task.Run(() => {

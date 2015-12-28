@@ -5,9 +5,11 @@ date: 2015-12-27 20:32
 template: article.jade
 ---
 
+[Start of series and index](../2015-12-22-tetris1)
+
 In the previous article we began implementing tetris with React and Redux and got as far rendering the tetris shapes (called tetrominos).
 
-To follow along with this article checkout the commit `594a735`.
+To follow along with this article checkout the commit [594a735](https://github.com/liammclennan/tetris/commit/594a7355c377f62edb44a1cb3f10759d0e0bf804).
 
 ```
 $ git clone https://github.com/liammclennan/tetris.git

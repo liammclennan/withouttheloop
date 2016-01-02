@@ -5,8 +5,6 @@ date: 2015-12-28 20:32
 template: article.jade
 ---
 
-[Start of series and index](../2015-12-22-tetris1)
-
 In the previous article we began implementing tetris with React and Redux and got as far rendering the tetris shapes (called tetrominos).
 
 In this addition we will add some animation and introduce Redux for managing UI state.
@@ -83,6 +81,8 @@ var counter = 1;
 setInterval(() => store.dispatch({ type: 'TICK', data: counter++ }),1000);
 ```
 
+Remember that `store` is our redux wrapper around application state. The `dispatch` method is how we publish an action. 
+
 This combined with our reducer means that every second a square tetromino will be added to the board diagonally to the lower right of the previous piece. The result is something like:
 
 <img src="screenshot.png" />
@@ -90,4 +90,4 @@ This combined with our reducer means that every second a square tetromino will b
 Next Time...
 ========
 
-The next installment of this series will add falling, rotation and testing. 
+The next installment of this series will add falling, rotation and testing.

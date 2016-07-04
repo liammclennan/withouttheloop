@@ -7,7 +7,7 @@ template: article.jade
 
 There are two primary architectures for using an API-first CMS like Blackstar CMS. 
 
-1. Modern web applications built with Angular.js, React, Ember etc will tend to load their application data from their application server, and their content data directly from Blackstar CMS. This means that the end users browser connects directly to Blackstar CMS.
+1. Modern web applications built with Angular.js, React, Ember etc will tend to load their application data from their application server, and their content data directly from Blackstar CMS. This means that the end user's browser connects directly to Blackstar CMS.
 
 1. Server rendered applications using Asp.net MVC, Rails, Django etc will load content from Blackstar CMS during the process of rendering the page. In this scenario Blackstar CMS is only accessed by the web server and can be deployed within a private network.
 
@@ -61,4 +61,4 @@ If you used a self-signed certificate you will get an error because the certific
 
 ![Certificate error](chromeerror.png)
 
-For testing purposes you can accept the error and proceed to access Blackstar CMS via an encrypted connection. For production use Let's Encrypt or a Certificate Authority to obtain a trusted certificate. 
+For testing purposes you can accept the error and proceed to access Blackstar CMS via an encrypted connection. For production, use Let's Encrypt or a Certificate Authority to obtain a trusted certificate. 

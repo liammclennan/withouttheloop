@@ -1,12 +1,9 @@
 ---
-title: TODO
+title: Why I Like Mathematics
 author: Liam McLennan
 date: 2016-08-09 20:32
 template: article.jade
 ---
-
-Why I Like Mathematics
-===================
 
 The reason that I like and enjoy mathematics is epistemological. [Epistemology](https://en.wikipedia.org/wiki/Epistemology) is the branch of philosophy that deals with knowledge, including ideas of truth, belief and justification. 
 

@@ -27,9 +27,9 @@ Keys are given a name to help you remember what they are for. You should create 
 API Security
 ============
 
-The API is Blackstar's most important interface, so let's start there. When connecting to the Blackstar API client's may need to authenticate. Authenticate is the process of establishing a trusted identity and is achieved using [JSON Web Tokens](https://jwt.io/introduction/) (JWT). A JWT is a cryptographically signed authentication claim. The client signs a claim using a secret API key. The server validates the token with the same API key. If the token validates then the server knows that the client has the same key and the claim can be trusted. 
+The API is Blackstar's most important interface, so let's start there. When connecting to the Blackstar API client's may need to authenticate. Authentication is the process of establishing a trusted identity and is achieved using [JSON Web Tokens](https://jwt.io/introduction/) (JWT). A JWT is a cryptographically signed authentication claim. The client signs a claim using a secret API key. The server validates the token with the same API key. If the token validates then the server knows that the client has the same key and the claim can be trusted. 
 
-Once the client has created a JWT it is then included with every request, in the Àuthorization` header, like so:
+Once the client has created a JWT it is then included with every request, in the `Authorization` header, like so:
 
 ```
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTGlhbSIsImlhdCI6MTQ3MDM3MTQ1MCwiZXhwIjoxNDcwNDU3ODUwfQ.Nl2k32tcAHWhxDURL_fN08bgbrxfA9CSXWeA0nDPwso

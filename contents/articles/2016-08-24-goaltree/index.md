@@ -109,6 +109,6 @@ Deliverables are the things we can do to support each impact. They often involve
 
 The implication is that if we deliver the features listed at the bottom, then we will get the impacts identified for the actors, which leads to achieving the goal. 
 
-Note that the original requirement does not appear in the impact map, suggesting that there may not be a clear chain of reasoning back to the actual goal. The three deliverables identified in the impact map may represent move valuable work items. 
+Note that the original requirement does not appear in the impact map, suggesting that there may not be a clear chain of reasoning back to the actual goal. The three deliverables identified in the impact map may represent more valuable work items. 
 
 The goal tree is one technique that can help high performance development teams to reduce waste and creates more value in less time.    

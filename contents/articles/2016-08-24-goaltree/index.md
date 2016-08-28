@@ -111,4 +111,4 @@ The implication is that if we deliver the features listed at the bottom, then we
 
 Note that the original requirement does not appear in the impact map, suggesting that there may not be a clear chain of reasoning back to the actual goal. The three deliverables identified in the impact map may represent move valuable work items. 
 
-The goal tree is one technique that can help high performance development teams to reduce waste and creates more value in less time. 
+The goal tree is one technique that can help high performance development teams to reduce waste and creates more value in less time.    

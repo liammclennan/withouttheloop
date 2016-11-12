@@ -1,5 +1,5 @@
 ---
-title: Document Storage in Sql Server and Postresql
+title: Document Storage in Sql Server 2016 (JSON) and Postresql
 author: Liam McLennan
 date: 2016-11-12 20:32
 template: article.jade

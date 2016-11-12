@@ -5,6 +5,17 @@ date: 2016-11-12 20:32
 template: article.jade
 ---
 
+<style>
+table {
+    text-align: left;
+    font-size: small;
+    font-family: consolas;
+    background-color: #eee;
+    margin-bottom: 15px;
+}
+td {padding: 4px;}
+</style>
+
 Why?
 ====
 

@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "configure":"npm install wintersmith",
+    "build": "wintersmith build"
+  },
   "dependencies": {
     "moment": "2.x",
     "underscore": "1.4.x",

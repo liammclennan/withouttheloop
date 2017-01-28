@@ -1,11 +1,11 @@
 ---
-title: On Testing
+title: On Developer Testing
 author: Liam McLennan
 date: 2017-01-28 20:32
 template: article.jade
 ---
 
-Thoughts on Testing
+On Developer Testing
 ===================
 
 Why

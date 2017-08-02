@@ -5,7 +5,7 @@ date: 2017-08-01 20:32
 template: article.jade
 ---
 
-[Komo](https://komo.tech/) has always been a secure and easy way to add passwordless authentication to web applications. However, it is now even easier. 
+[Komo](https://komo.tech/) was already a secure and easy way to add passwordless authentication to web applications. However, it is now even easier. 
 
 The process of adding Komo passwordless authentication to a web applications has been reduced to two steps:
 
@@ -17,7 +17,7 @@ The process of adding Komo passwordless authentication to a web applications has
 
 1. Implement a webhook
 
-    The webhook endpoint is sent an authentication token. Post the token to `https://komo.tech/verify`. The response will look something like:
+    Your webhook endpoint is sent an authentication token. Post the token to `https://komo.tech/verify`. The response will look something like:
 
     ```
     {
@@ -32,3 +32,5 @@ The process of adding Komo passwordless authentication to a web applications has
     If `isValid` is true, then you have verified that the current user has access to the email address in the response (`john@adomain.com` in the example above) and may login the user using your web framework. 
 
 See [https://glitch.com/edit/#!/immense-sneeze?path=server.js:22:11](https://glitch.com/edit/#!/immense-sneeze?path=server.js:22:11) for a full working example.
+
+(Note: It is also possible to directly verify the [JWT token](https://en.wikipedia.org/wiki/JSON_Web_Token) if you wish to avoid the network request to `https://komo.tech/verify`.)

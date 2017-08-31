@@ -23,7 +23,7 @@ Thus unencumbered, my progress home was more rapid. I was terrified, thinking th
 
 I passed one block, then a second, before I saw my neighbour's SUV screeching to a halt, on the wrong side of the road, across an intersection. I jumped in the passenger seat and barely had time to fail to close the door properly before we were off with a tyre howl and a petrol roar. 
 
-When I got inside Hugo was on my bed, lying on his side, moving in and out conciousness. His breathing was faint but detectable. The ambulance had been called so we watched him and waited. After forty minutes I started to worry that the ambulance service had somehow lost track of us, so I called again. The lady I spoke to assured me that the ambulance would be there as soon as possible and asked me a silly question, "is he breathing?". After forty minutes without breathing they could have told the ambulance to slow down. 
+When I got inside Hugo was on my bed, lying on his side, moving in and out conciousness. His breathing was faint but detectable. His seizure had lasted five minutes and included two minutes without breathing. The ambulance had been called so we watched him and waited. After forty minutes I started to worry that the ambulance service had somehow lost track of us, so I called again. The lady I spoke to assured me that the ambulance would be there as soon as possible and asked me a silly question, "is he breathing?". After forty minutes without breathing they could have told the ambulance to slow down. 
 
 One hour and ten minutes after we called, the ambulance arrived. 
 

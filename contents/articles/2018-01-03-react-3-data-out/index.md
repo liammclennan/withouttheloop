@@ -69,7 +69,7 @@ function render() {
 render();
 ```
 
-Note that I had to move the call to `ReactDOM.render` into a function and call that function after updating the value of `day`. This is because React does not automatically now that its model data has changed and it needs to re-render. 
+Note that I had to move the call to `ReactDOM.render` into a function and call that function after updating the value of `day`. This is because React does not automatically know that its model data has changed and it needs to re-render. 
 
 Summary
 =======

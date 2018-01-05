@@ -125,3 +125,5 @@ Summary
 Redux can be confusing, because of all the additional machinery that has accumulated around it, and because of the way the documentation is presented. At its core Redux is just a container for application state and a formalized way of modifying that application state.
 
 Good React components are simple, pure functions of their inputs (props). Redux is a helpful tool that makes this much easier.
+
+> Next: [Learning React 5 - React-redux](/articles/2018-01-05-react-5-react-redux/)

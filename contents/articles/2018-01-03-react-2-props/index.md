@@ -1,7 +1,7 @@
 ---
 title: Learning React 2 - Data in with props
 author: Liam McLennan
-date: 2018-01-03 20:32
+date: 2018-01-02 20:32
 template: article.jade
 ---
 
@@ -47,3 +47,5 @@ Summary
 ======
 
 By introducing `props` to our React component we have generalized it to work with any date. This is the mechanism by which data is passed to React components, and passed down a hierarchy of React components. 
+
+> Next: [Learning React 3 - Data out with props](/articles/2018-01-03-react-3-data-out/)

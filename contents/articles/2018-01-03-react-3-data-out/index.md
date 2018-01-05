@@ -75,3 +75,5 @@ Summary
 =======
 
 Data is passed into a React component as a value supplied as props. Data is passed out of a React component by calling a function passed in as props. Components created in this style have a wonderful simplicity. Their interface is defined entirely by props. You should try to code all of your React components in this way. 
+
+> Next: [Learning React 4 - Redux](/articles/2018-01-05-react-4-redux/)

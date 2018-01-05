@@ -1,7 +1,7 @@
 ---
 title: Learning React 1 - A first component
 author: Liam McLennan
-date: 2018-01-03 20:32
+date: 2018-01-01 20:32
 template: article.jade
 ---
 
@@ -75,3 +75,5 @@ Summary
 ======
 
 Creating a React app with the most basic component I can think of is simple. In future posts I will build on this on step at a time until we have a viable application.
+
+> Next: [Learning React 2 - Data in with props](/articles/2018-01-03-react-2-props/)

@@ -139,3 +139,5 @@ When React and Redux are used together 'React-redux' is usually used as a conven
 
 * Wrapping the component tree in a `<Provider/>`
 * Providing a `mapStateToProps` and `mapDispatchToProps` function for each connected component
+
+> Next: [Learning React 6 - React Router](/articles/2018-01-08-react-6-react-router/)

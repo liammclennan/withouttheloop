@@ -127,3 +127,15 @@ Redux can be confusing, because of all the additional machinery that has accumul
 Good React components are simple, pure functions of their inputs (props). Redux is a helpful tool that makes this much easier.
 
 > Next: [Learning React 5 - React-redux](/articles/2018-01-05-react-5-react-redux/)
+
+Get The Code
+------------
+
+The code for this example is [on Github](https://github.com/liammclennan/today-react-app). You can access the code as it was at the completion of this step by cloning the repository and checking out the tag that corresponds to this post. 
+
+```bash
+git clone https://github.com/liammclennan/today-react-app.git
+git checkout react4 
+```
+
+or browse at https://github.com/liammclennan/today-react-app/tree/9f17db0e8d19c505efaaa7e828cb71e535e2377a.

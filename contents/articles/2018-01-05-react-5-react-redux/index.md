@@ -141,3 +141,15 @@ When React and Redux are used together 'React-redux' is usually used as a conven
 * Providing a `mapStateToProps` and `mapDispatchToProps` function for each connected component
 
 > Next: [Learning React 6 - React Router](/articles/2018-01-08-react-6-react-router/)
+
+Get The Code
+------------
+
+The code for this example is [on Github](https://github.com/liammclennan/today-react-app). You can access the code as it was at the completion of this step by cloning the repository and checking out the tag that corresponds to this post. 
+
+```bash
+git clone https://github.com/liammclennan/today-react-app.git
+git checkout react-5 
+```
+
+or browse at https://github.com/liammclennan/today-react-app/tree/18a03e73197b15eef0746a01fdd111942ff1a2d3.

@@ -49,3 +49,15 @@ Summary
 By introducing `props` to our React component we have generalized it to work with any date. This is the mechanism by which data is passed to React components, and passed down a hierarchy of React components. 
 
 > Next: [Learning React 3 - Data out with props](/articles/2018-01-03-react-3-data-out/)
+
+Get The Code
+------------
+
+The code for this example is [on Github](https://github.com/liammclennan/today-react-app). You can access the code as it was at the completion of this step by cloning the repository and checking out the tag that corresponds to this post. 
+
+```bash
+git clone https://github.com/liammclennan/today-react-app.git
+git checkout react2 
+```
+
+or browse at https://github.com/liammclennan/today-react-app/tree/6c4a389b57211a3c894db10c34f444d37e6b3c69.

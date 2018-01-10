@@ -131,3 +131,5 @@ Summary
 ======
 
 URLs are the central abstraction of a well-behaved web application. To achieve this with React we need a router. React router is the popular choice although it does have some friction with state management solutions like Redux. redux-first-router is another alternative. 
+
+> Next: [Learning React 7 - AJAX](/articles/2018-01-10-react-7-ajax/)

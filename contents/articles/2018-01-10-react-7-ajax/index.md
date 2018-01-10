@@ -34,7 +34,7 @@ $ npm start
 Install redux, react-redux and a router ([redux-first-router](https://github.com/faceyspacey/redux-first-router)):
 
 ```bash
-$ npm install --save redux react-redux redux-first-router
+$ npm install --save redux react-redux history redux-first-router redux-first-router-link
 ```
 
 Modify `index.js` to use a default redux implementation:
@@ -168,3 +168,10 @@ export const ConnectedSearch = connect(
 When a user types a character in the textbox it fires the `onChange` event, which [updates the components state to have the latest value of the textbox](https://reactjs.org/docs/forms.html), which causes the component to re-render and display the character the user typed in the textbox. 
 
 When the form is submitted we call the `onSearch` function on `props`. The React-Redux connection translates this into a dispatch of an action with `type: "SEARCH"`.
+
+Summary
+=======
+
+We started building a React movie library with React, Redux, react redux, and redux-first-router. We implemented a class component for a form, with local state and connected everything to our Redux store. 
+
+> Next: [Learning React 8 - AJAX Continued](/articles/2018-01-10-react-8-ajax-continued/)

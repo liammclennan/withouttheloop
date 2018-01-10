@@ -209,3 +209,15 @@ Summary
 =======
 
 First, we setup *redux-first-router* and implemented the `HOME` route. Then we introduced *redux-promise-middleware* as a way of inserting asynchronous operations into the redux data cycle. 
+
+Get The Code
+------------
+
+The code for this example is [on Github](https://github.com/liammclennan/movie-library). You can access the code as it was at the completion of this step by cloning the repository and checking out the tag that corresponds to this post. 
+
+```bash
+git clone https://github.com/liammclennan/movie-library.git
+git checkout react8 
+```
+
+or browse at https://github.com/liammclennan/movie-library/tree/c93c652fa1318ce6447d985e3f8b690386456565.

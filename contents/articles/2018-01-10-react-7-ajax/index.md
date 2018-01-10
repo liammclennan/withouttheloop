@@ -175,3 +175,15 @@ Summary
 We started building a React movie library with React, Redux, react redux, and redux-first-router. We implemented a class component for a form, with local state and connected everything to our Redux store. 
 
 > Next: [Learning React 8 - AJAX Continued](/articles/2018-01-10-react-8-ajax-continued/)
+
+Get The Code
+------------
+
+The code for this example is [on Github](https://github.com/liammclennan/movie-library). You can access the code as it was at the completion of this step by cloning the repository and checking out the tag that corresponds to this post. 
+
+```bash
+git clone https://github.com/liammclennan/movie-library.git
+git checkout react7 
+```
+
+or browse at https://github.com/liammclennan/movie-library/tree/7548d450b7727f124070dd7ee9b73575d740e9b3.

@@ -83,7 +83,7 @@ export default connect(function mapStateToProps(state) {
 
 *redux-first-router* puts route information into the redux store when a route is matched. `mapStateToProps` extracts the `location` key from the store, which is then used in the `App` component to extract the `type` value.
 
-`connectMap` maps route action types to React components. If the route action type is `HOME` then `View` will be a `ConnectedSearch`, which is what we want for the home page.
+`componentMap` maps route action types to React components. If the route action type is `HOME` then `View` will be a `ConnectedSearch`, which is what we want for the home page.
 
 AJAX Actions
 ==========
@@ -125,6 +125,20 @@ export function searchReducer(state = {results: []}, action) {
                         : []});
         default: return state;
     }
+}
+```
+
+Update the `Search` component to display our recently acquired movie data:
+
+```javascript
+function Search({ onSearch, results = [] }) {
+    return <div>
+        <h1>Search</h1>
+        <SearchForm onSearch={onSearch} />
+        <div>
+            {results.map(({Title,Poster,imdbID})=> <img src={Poster} alt={Title} key={imdbID} />)}
+        </div>
+    </div>;
 }
 ```
 

@@ -136,7 +136,8 @@ function Search({ onSearch, results = [] }) {
         <h1>Search</h1>
         <SearchForm onSearch={onSearch} />
         <div>
-            {results.map(({Title,Poster,imdbID})=> <img src={Poster} alt={Title} key={imdbID} />)}
+            {results.map(({Title,Poster,imdbID})=> 
+                <img src={Poster} alt={Title} key={imdbID} />)}
         </div>
     </div>;
 }
@@ -223,6 +224,8 @@ Summary
 =======
 
 First, we setup *redux-first-router* and implemented the `HOME` route. Then we introduced *redux-promise-middleware* as a way of inserting asynchronous operations into the redux data cycle. 
+
+> Next: [Learning React 9 - Data Bound Routes](/articles/2018-01-11-react-9-data-bound-routes/)
 
 Get The Code
 ------------

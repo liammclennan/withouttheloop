@@ -50,7 +50,10 @@ const componentMap = {
 };
 ```
 
-Now we encounter a problem. When the router sees the route `/movie/:imdbID` it will cause the application to show the `ConnectedMovie` component, which expects to display a movie using data from the redux store, but the data is not there. Somehow we need to take the `imdbID` from the route and populate the redux store. *redux-first-router* allows for this using an alternative way of specifying the action-to-route mapping, with an included `thunk` value. This is a function that runs when the route is matched and that has access to the current store. Within the `thunk` we can read the `imdbID` from the store (*redux-first-router* put it on the `location` key for us), perform a request, and publish the `MOVIE_FETCHED` action with the data when we are done. The `movieReducer` then copies the data from the action into the store.
+*redux-first-router* Route Thunks
+========
+
+Now we encounter a problem. When the router sees the route `/movie/:imdbID` it will cause the application to show the `ConnectedMovie` component, which expects to display a movie using data from the redux store, but the data is not there. Somehow we need to take the `imdbID` from the route and populate the redux store. *redux-first-router* allows for this using an alternative way of specifying the action-to-route mapping, with an included `thunk` value. This is a function that runs when the route is matched and that has access to the current store. Within the `thunk` we can read the `imdbID` from the store (*redux-first-router* put it on the `location` key for us), perform a request, and publish the `MOVIE_FETCHED` action with the data when we are done. 
 
 ```javascript
 const routesMap = { 
@@ -68,7 +71,7 @@ const routesMap = {
 };
 ```
 
-The `MOVIE_CLEAR` action is dispatched before the request to clear the previous movie data from the store.
+The `MOVIE_CLEAR` action is dispatched before the request to clear the previous movie data from the store. The `movieReducer` then copies the data from the action into the store.
 
 ```javascript
 const defaultState = {movie: null};

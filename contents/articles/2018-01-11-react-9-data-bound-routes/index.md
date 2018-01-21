@@ -150,10 +150,9 @@ As the `onSearch` handler no longer publishes an action with a promise we are no
 Summary
 ======
 
-Where sensible, states should be addressable via a route. Where a route requires an asynchronous operations, such as making an AJAX request, use the `thunk` property of the route configuration object to do the asynchronous operation and dispatch an action when it is complete. 
+Where sensible, states should be addressable via a route. Where a route requires an asynchronous operations, such as making an AJAX request, use the `thunk` property of the route configuration object to do the asynchronous operation and dispatch an action when it is complete.
 
-
-
+> Next: [Learning React 10 - Typescript](/articles/2018-01-17-react-10-typescript/)
 
 Get The Code
 ------------

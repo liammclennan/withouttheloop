@@ -9,6 +9,11 @@ In [Learning React 4 - Redux](/articles/2018-01-05-react-4-redux/) we learnt abo
 application and how it can be integrated. The result was the following code:
 
 ```javascript
+function Today({ day, onNext }) {
+    return <div>Today is {day.toString()}
+        <button type="button" onClick={onNext}>Next</button></div>;
+}
+
 function onNext() {
     store.dispatch({type: "NEXT_DAY"});
 }

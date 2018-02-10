@@ -1,5 +1,5 @@
 ---
-title: Startup Software Produce Development
+title: Startup Software Product Development
 author: Liam McLennan
 date: 2018-02-10 20:32
 template: article.jade

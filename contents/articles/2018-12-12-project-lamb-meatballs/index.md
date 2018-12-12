@@ -27,7 +27,7 @@ They then proceed to eat all the corn in the buffet and declare the corn kernel 
 If Not Nothing, Then All
 ----------------
 
-When an organization decides to use technology to assist in a particular area, they often fall into the trap of thinking that if they are doing something they must do everything, presented as defining and completing "the project". This fails to consider the opportunity cost of any one project. By deciding to see one project (corn kernels) through to the bitter end we miss out on other options that we could be pursuing to create value. All initiatives have diminishing returns so proper portfolio management requires considering all options simultaneously and pursuing each only to the extent that it creates the maximum value (sample many buffet items to create the optimal meal).  
+When we decide to use technology to assist in a particular area, we often fall into the trap of thinking that if we are doing something we must do everything, presented as defining and completing "the project". This fails to consider the opportunity cost of any one project. By deciding to see one project (corn kernels) through to the bitter end we miss out on other options that we could be pursuing to create value. All initiatives have diminishing returns so proper portfolio management requires considering all options simultaneously and pursuing each only to the extent that it creates the maximum value (sample many buffet items to create the optimal meal).  
 
 Value-based Portfolio Management
 -----------

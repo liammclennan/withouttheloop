@@ -33,7 +33,7 @@ That's just an anecdote. Good point. Here are some more:
 
 > "Every project contains uncertainty. If it doesn’t you shouldn’t be doing it — it’s already been solved!" -- [Dan North](https://dannorth.net/2013/08/08/blink-estimation/)
 
-If you prefer data, the CHAOS report has found consistently that 75% of projects are late/over budget or failed. Even a proponent of estimates, Steve McConnell, suggests that a "good" estimate should be within 25% of the actual value, 75% of the time. I estimate a project will cost $100,000 and run the project four times. If I am estimating as well as is possible the project should cost between $75,000 and $125,000 three of the four times. That is not much better than an order of magnitude estimate. It is certainly not what people have in mind when they ask me for an "accurate estimate" (an oxymoron by the way). 
+If you prefer data, the CHAOS report has found consistently that 75% of projects are late/over budget or failed. Even a proponent of estimates, Steve McConnell, says, "we have come to value project control over project estimation, as a means of achieving predictability".  
 
 All of that is to say why we cannot predict the amount of effort required to deliver a particular, defined feature. Here is an even bigger problem. People want estimates before they commit to an initiative. In the agile world an initiative is a problem to solve - there is no particular defined feature. Unless we are doing big-design-up-front and prematurely committing to a solution of a problem not yet well understood there isn't even anything to estimate. It's like asking my builder to accurately estimate my renovation defined as "more space and brighter colours". 
 

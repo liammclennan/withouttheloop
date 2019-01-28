@@ -93,9 +93,9 @@ McConnel supports his argument for estimation based on projecting from a measure
 McConnell says, "I’ve seen #NoEstimates advocates treat these questions of requirements volatility, estimation effectiveness, and supposed tradeoffs between agility and predictability as value-laden moral discussions". This is in the same article where he previously described these people as lacking knowledge and skill because they hold an opinion different to his. 
 
 Summary
-======
+------
 
-#NoEstimates folk say estimation doens't work. They mean that you can't guess how much effort will be required to implement something before you've started, and if you could you would have had to commit to a big-design-up-front waterfall process. 
+NoEstimates folk say estimation doens't work. They mean that you can't guess how much effort will be required to implement something before you've started, and if you could you would have had to commit to a big-design-up-front waterfall process. 
 
 McConnell says that estimates are useful and possible if you do his training course and are a "professional". He means that if you make a substantial upfront investment to define the requirements, and are prepared to stick to that plan, even when you learn it is wrong, then you can produce an estimate with only 50% uncertainty. You are free to change the requirements (be agile) but that invalidates your estimate. 
 

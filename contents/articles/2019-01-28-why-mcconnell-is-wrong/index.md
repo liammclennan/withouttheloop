@@ -42,7 +42,7 @@ He then makes a valid criticism of "#NoEstimates" advocates for criticising esti
 
 His own graphic makes the same point.
 
-![Cone of uncertainty](improved estimation skill should be part of the definition of being a true software professional)
+![Cone of uncertainty](cone.jpg)
 
 According to this, we can reduce the uncertainty to 50%, by completing the detailed requirements. That is, if we give up on agility and spend 1/3 of the cost of the project, we can get a wildly inaccurte estimate. 
 

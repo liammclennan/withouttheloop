@@ -30,4 +30,3 @@ This advice was articulated brilliantly by [Edsger Dijkstra in 1972](https://www
 Here we see a brilliant man reminding us that programming is hard, sometimes impossibly so. The best programmer, like the best consultant, is the one who knows their limitations and is vigilant in the search to combat them. 
 
 > *We shall do a much better programming job, provided that we approach the task with a full appreciation of its tremendous difficulty, provided that we stick to modest and elegant programming languages, provided that we respect the intrinsic limitations of the human mind and approach the task as Very Humble Programmers.* -- Edsger Dijkstra
-`

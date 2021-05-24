@@ -14,9 +14,9 @@ Recently I was working with a colleague who is an exceptionally talented consult
 ![Pearl](pearl.jpg)
 Photo by Anastasiia Rozumna on Unsplash
   
-I believe that we should attempt to observe this moments of sub-perfection, and try to understand them. Hold onto it. Think about it. We may not see a solution in the moment, but if we hold onto these gaps then one day we will see a solution, in something we read, something we see someone else do, or maybe it is just delivered by our sub-conscious. 
+We should attempt to observe these moments of sub-perfection, and try to understand them. Hold onto it. Think about it. We may not see a solution in the moment, but if we hold onto these gaps then one day we will see a solution, in something we read, something we see someone else do, or maybe it is just delivered by our sub-conscious. 
 
-Being able to identify to identify and acknowledge our weaknesses/gaps/failures and hold them in view until we match a solution, creates the possibility of improvement and is the most important capability a consultant can have.
+Being able to identify and acknowledge our weaknesses/gaps/failures and hold them in view until we match a solution, creates the possibility of improvement and is the most important capability a consultant can have.
 
 ![cat](cat.jpg)
 Photo by Karina Vorozheeva on Unsplash
@@ -30,3 +30,4 @@ This advice was articulated brilliantly by [Edsger Dijkstra in 1972](https://www
 Here we see a brilliant man reminding us that programming is hard, sometimes impossibly so. The best programmer, like the best consultant, is the one who knows their limitations and is vigilant in the search to combat them. 
 
 > *We shall do a much better programming job, provided that we approach the task with a full appreciation of its tremendous difficulty, provided that we stick to modest and elegant programming languages, provided that we respect the intrinsic limitations of the human mind and approach the task as Very Humble Programmers.* -- Edsger Dijkstra
+`

@@ -42,4 +42,4 @@ The compiler, in its omnipotent wisdom, knows exactly what is going on, because 
 
 Hence, the takeaway:
 
-> Write code for the reader, not the compiler. Don't use `var` unless the infered type is obvious. 
+> Write code for the reader, not the compiler. Don't use `var` unless the inferred type is obvious. 

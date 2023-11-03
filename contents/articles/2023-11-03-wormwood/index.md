@@ -9,13 +9,13 @@ At [work](https://datalust.co/seq), I contribute to a database called [Flare](ht
 
 Flare, and database technology in general, is fascinating and deeply rewarding, but it is also huge, complex and inscrutable :D
 
-Because I think databases are interesting, and I hope others may too, I started building a new database, called Wormwood. Originally, I called it ToyDB, because it is, but there is already at least one of those (it's cool) so I changed the name to Wormwood.
+Because I think databases are interesting, and I hope others may too, I started building a new database, called Wormwood. Originally, I called it ToyDB, because it is a toy db, but there is already at least one of those so I changed the name to Wormwood.
 
-Wormwood is being built in parallel in Typescript (because it is accessible) and Rust (because it will help me learn Rust).
+Wormwood is being built in Typescript (because it is accessible) and Rust (because it will help me to learn Rust).
 
-I hope to keep Wormwood very, very simple so that it may serve as a demonstration of the concepts that make more sophisticated databases possible. This quickly leads to decisions that prevent it from being a useable database, and that is ok. Wormwood will never be useful for anything other than experimenting with database technology. 
+I hope to keep Wormwood very, very simple so that it may serve as a demonstration of the concepts that make more sophisticated databases possible. This quickly leads to decisions that prevent it from being a useable database, and that is ok. Wormwood will never be useful for anything other than the joy of finding things out. 
 
-If you'd like a quick introduction to the terrain you could do worse that [Architecture of a Database System] (Hellerstein, Stonebraker and Hamilton). It describes a core type used to build data pipelines that looks like this:
+If you'd like a quick introduction to the terrain you could do worse that [Architecture of a Database System](https://dsf.berkeley.edu/papers/fntdb07-architecture.pdf) (Hellerstein, Stonebraker and Hamilton). It describes a core type used to build data pipelines that looks like this:
 
 ```ts
 type Row = any[];
@@ -62,7 +62,7 @@ constructor(table: string, columns: string[]) {
 
 'Tables' map to files in the `/data` directory - so `select a, b from table1` will open the file `/data/table1.clef`. The `open()` method opens the file and starts streaming chunks into the buffer and is an abomination that I won't soil your eyes with. 
 
-`Producer`s `next()` method tries to grab a row from the buffer, and then feeds it through this function to convert it into an array of the requested properties:
+`Producer`s `next()` method tries to grab a row from the buffer, and then feeds it through the `makeRow` function below to convert it into an array of the requested properties:
 
 ```ts
 makeRow(line: string): any[] {

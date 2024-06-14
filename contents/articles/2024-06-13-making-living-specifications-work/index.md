@@ -104,4 +104,4 @@ All claims in the specification are highlighted. Those that have been successful
 
 Having a living specification completes the link between work that developers do and the purpose of the system they are working on. It encourages the team to think before doing, and provides visibility of what the system does, what works, what doesn't, and what has not been done yet. 
 
-To quote Preston-Werner again, "until you’ve written about your software, you have no idea what you’ll be coding". Maybe its time we did? 
+To quote Preston-Werner again, "until you’ve written about your software, you have no idea what you’ll be coding". Maybe it's time we did? 

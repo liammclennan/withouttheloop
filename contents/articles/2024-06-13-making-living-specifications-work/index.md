@@ -17,7 +17,7 @@ What if we:
 1. let software developers write automated tests the way that they want?
 1. map the specificaton statements to the tests that verify them and publish the result?
 
-This adds rigour to the idea of [readme driven development](https://tom.preston-werner.com/2010/08/23/readme-driven-development). As Tom Preston-Warner said, "a perfect implementation of the wrong specification is worthless... a beautifully crafted library with no documentation is also damn near worthless".
+This adds rigour to the idea of [readme driven development](https://tom.preston-werner.com/2010/08/23/readme-driven-development). As Tom Preston-Werner said, "a perfect implementation of the wrong specification is worthless... a beautifully crafted library with no documentation is also damn near worthless".
 
 We can explore this idea with a simple example.
 
@@ -103,3 +103,5 @@ If we add metadata to the specification, we can map each of its claims to the te
 All claims in the specification are highlighted. Those that have been successfully verified by the tests are green. Those that failed their tests are red, and those linked to tests that were skipped are gray. 
 
 Having a living specification completes the link between work that developers do and the purpose of the system they are working on. It encourages the team to think before doing, and provides visibility of what the system does, what works, what doesn't, and what has not been done yet. 
+
+To quote Preston-Werner again, "until you’ve written about your software, you have no idea what you’ll be coding". Maybe its time we did? 

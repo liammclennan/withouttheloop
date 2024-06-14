@@ -11,6 +11,6 @@
   },
   "repository": "none",
   "devDependencies": {
-    "wintersmith": "2.3.6"
+    "wintersmith": "2.5.0"
   }
 }
